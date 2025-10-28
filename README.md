@@ -1,0 +1,2 @@
+# matsushita_M1_any_genre_commentary
+M1で行っている実況の研究．あらゆるジャンルの実況のスクリプトや開始終了時刻をまとめている．

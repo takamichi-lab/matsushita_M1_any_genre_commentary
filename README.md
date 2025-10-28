@@ -10,7 +10,7 @@
 #### csvファイル: 
 元の動画から，各試合を切り出すためのファイルです．
 それぞれのファイルの名前は，{ゲーム（スポーツ）の名前}_{YoutubeのvideoID（11文字）}.csvとなっています．ex)Apex_3Qjog3M437Y.csv
-YoutubeのvideoIDは，Youtubeの動画のリンク（ex)"https://www.youtube.com/watch?v=Zdam7_PgiT0"）のv=のあとに続く11文字を指します．
+YoutubeのvideoIDは，Youtubeの動画のリンク（ex)`https://www.youtube.com/watch?v=Zdam7_PgiT0`）のv=のあとに続く11文字を指します．
 txtファイルのみ存在し，csvファイルが存在しない動画がありますが，その場合は，切り出しは行わずに，ダウンロードした動画をそのままデータセットとして使用しています．
 
 | start   | end   | ID  |
@@ -25,7 +25,7 @@ txtファイルのみ存在し，csvファイルが存在しない動画があ�
 #### txtファイル: 実況音声の文字起こしのスクリプト
 各試合の実況の発話内容と，その発話の開始，終了時刻をまとめたファイルになります．
 各要素はタブ区切りで保存されています．なお，それぞれのファイルの名前は，{ゲーム（スポーツ）の名前}_{YoutubeのvideoID（11文字）}.txtとなっています．ex)Apex_3Qjog3M437Y.txt
-YoutubeのvideoIDは，Youtubeの動画のリンク（ex)"https://www.youtube.com/watch?v=Zdam7_PgiT0"）のv=のあとに続く11文字を指します．
+YoutubeのvideoIDは，Youtubeの動画のリンク（ex)`https://www.youtube.com/watch?v=Zdam7_PgiT0`）のv=のあとに続く11文字を指します．
 
 | start_time  | end_time    | transcript  |
 | --- | --- | --- |
